@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="firstrun" duration-ms="26056" started-at="2020-04-05T15:02:32 PDT" finished-at="2020-04-05T15:02:58 PDT">
+    <groups>
+    </groups>
+    <test name="firstcase" duration-ms="26056" started-at="2020-04-05T15:02:32 PDT" finished-at="2020-04-05T15:02:58 PDT">
+      <class name="testNGPractice.SimpleTestForListener">
+        <test-method status="PASS" signature="OpenAmazonSite(org.testng.ITestContext)[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenAmazonSite" duration-ms="10714" started-at="2020-04-05T15:02:33 PDT" finished-at="2020-04-05T15:02:43 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7aaca91a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAmazonSite -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="637" started-at="2020-04-05T15:02:43 PDT" finished-at="2020-04-05T15:02:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="OpenEbaySite(org.testng.ITestContext)[pri:1, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenEbaySite" duration-ms="13611" started-at="2020-04-05T15:02:44 PDT" finished-at="2020-04-05T15:02:58 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7aaca91a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenEbaySite -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="826" started-at="2020-04-05T15:02:58 PDT" finished-at="2020-04-05T15:02:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testNGPractice.SimpleTestForListener -->
+    </test> <!-- firstcase -->
+  </suite> <!-- firstrun -->
+</testng-results>

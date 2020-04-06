@@ -1,0 +1,9 @@
+2020-03-06 00:00:55 DEBUG Log4jExampleXMLConfigurator:16 - This is debug message
+2020-03-06 00:00:55 INFO  Log4jExampleXMLConfigurator:17 - This is info message
+2020-03-06 00:00:55 WARN  Log4jExampleXMLConfigurator:18 - This is warning message
+2020-03-06 00:00:55 ERROR Log4jExampleXMLConfigurator:19 - This is error message
+2020-03-06 00:00:55 FATAL Log4jExampleXMLConfigurator:20 - This is fata error message
+2020-03-06 00:02:35 INFO  Log4jExampleXMLConfigurator:17 - This is info message
+2020-03-06 00:02:35 WARN  Log4jExampleXMLConfigurator:18 - This is warning message
+2020-03-06 00:02:35 ERROR Log4jExampleXMLConfigurator:19 - This is error message
+2020-03-06 00:02:35 FATAL Log4jExampleXMLConfigurator:20 - This is fatal error message

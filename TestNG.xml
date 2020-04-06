@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="firstrun" > <!--  verbose="2" parallel="methods" thread-count="3"> -->
+	<listeners>
+		<listener class-name="testNGPractice.ListenerExample"></listener>
+	</listeners>
+	<test name="firstcase">
+		<!-- <parameter name="Name" value="Ganeshan"> </parameter> -->
+		<!-- <groups> <run> <include name="Samsung"></include> <include name="Lenovo"></include> 
+			</run> </groups> -->
+		<classes>
+			<class name="testNGPractice.SimpleTestForListener">
+				<!-- <methods>
+					<include name="openUSHDotCom"></include>
+					<include name="openAmazon"></include>
+					<exclude name="openeBay"></exclude>
+				</methods> -->
+			</class>
+			<!-- CTRL+SHFT+/ for commenting -->
+			<!-- <class name="testNGPractice.DependanciesExample"></class> <class 
+				name="testNGPractice.SkipaTestcase"></class> <class name="testNGPractice.PrioritySettingforTestCaseExample"></class> -->
+		</classes>
+	</test>
+</suite>
