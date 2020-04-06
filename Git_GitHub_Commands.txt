@@ -1,0 +1,28 @@
+Pre-Requisite: Git and Git Hub repository to be installed
+
+1. Take the project folder information from eclipse by Right Click >> Properties >> Copy Project path
+2. Enter it in explorer and go to the project folder
+3. From that folder Right Click >> use command "Git Bash Here"
+4. A command prompt will be opened
+
+In the command prompt:
+1. To initiate the local repository use the below command "once"
+        $git init
+2. To add a remote folder to store commited files to push to Git Hub user below commance "once"
+        $git remote add  origin "https://github.com/gneshan/SeleniumTest.git" // mention the git hub remote repositoty path at last
+3. To check the status of files in the project folder
+        $git status //before commiting all the untracked files are displayed in red color
+4. To add the untracked files to stage area
+        $git add -A //this command will add all the untracked files to the stage; but before commit all files will be shown in green
+    4a. Before commit, execute the below config command "once"
+        $git config --global user.name "gneshan"
+        $git config --global user.email "gneshan@gmail.com"
+5. To commit the untracked files
+        $git commit -m "This is the first commit" //mention the comment at last for tracking
+6. To push the commited file to GIT HUB remote repository
+        $git push -u origin master //Branch 'master' set up to track remote branch 'master' from 'origin'.
+7. To pull the newly added file to the local repository
+        $git pull origin master
+
+
+     
