@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="firstrun" duration-ms="26056" started-at="2020-04-05T15:02:32 PDT" finished-at="2020-04-05T15:02:58 PDT">
+  <suite name="firstrun" duration-ms="17976" started-at="2020-04-06T23:15:04 PDT" finished-at="2020-04-06T23:15:22 PDT">
     <groups>
     </groups>
-    <test name="firstcase" duration-ms="26056" started-at="2020-04-05T15:02:32 PDT" finished-at="2020-04-05T15:02:58 PDT">
+    <test name="firstcase" duration-ms="17976" started-at="2020-04-06T23:15:04 PDT" finished-at="2020-04-06T23:15:22 PDT">
       <class name="testNGPractice.SimpleTestForListener">
-        <test-method status="PASS" signature="OpenAmazonSite(org.testng.ITestContext)[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenAmazonSite" duration-ms="10714" started-at="2020-04-05T15:02:33 PDT" finished-at="2020-04-05T15:02:43 PDT">
+        <test-method status="PASS" signature="OpenAmazonSite(org.testng.ITestContext)[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenAmazonSite" duration-ms="9564" started-at="2020-04-06T23:15:04 PDT" finished-at="2020-04-06T23:15:14 PDT">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAmazonSite -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="637" started-at="2020-04-05T15:02:43 PDT" finished-at="2020-04-05T15:02:44 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="676" started-at="2020-04-06T23:15:14 PDT" finished-at="2020-04-06T23:15:15 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="OpenEbaySite(org.testng.ITestContext)[pri:1, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenEbaySite" duration-ms="13611" started-at="2020-04-05T15:02:44 PDT" finished-at="2020-04-05T15:02:58 PDT">
+        <test-method status="PASS" signature="OpenEbaySite(org.testng.ITestContext)[pri:1, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="OpenEbaySite" duration-ms="6704" started-at="2020-04-06T23:15:15 PDT" finished-at="2020-04-06T23:15:21 PDT">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenEbaySite -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="826" started-at="2020-04-05T15:02:58 PDT" finished-at="2020-04-05T15:02:58 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testNGPractice.SimpleTestForListener@6ddf90b0]" name="teardown" is-config="true" duration-ms="833" started-at="2020-04-06T23:15:21 PDT" finished-at="2020-04-06T23:15:22 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
